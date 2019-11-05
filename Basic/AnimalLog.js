@@ -1,3 +1,3 @@
 var items =[];
-console.log("initially the array is undefined");
+console.log("initially the array is empty");
 console.log(items);
