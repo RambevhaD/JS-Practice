@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About me</title>
+    <style>
+    .list-item{
+        color: red;
+    }
+    </style>
+</head>
+<body>
+    <h1>About me</h1>
+
+    <ul>
+            <li>Nickname: <span id="nickname"></span></li>
+            <li>Favorite food: <span id="fav-food"></span></li>
+            <li>Hometown: <span id="hometown"></span></li>   
+    </ul>
+    <script>
+      document.body.style.fontFamily = 'Ariel,sans-serif';
+      document.getElementById('nickname').textContent = 'Dkpro';
+      document.getElementById('fav-food').textContent = 'Spinach';
+      document.getElementById('hometown').textContent = 'Thohoyandou';
+      
+      var items = document.getElementsByTagName('ul');
+      for(var i =0; i<items.length;i++){
+          items[i].className = 'list-item';
+      }
+
+      var profile = document.createElement('img');
+      profile.src = 'http://ecx.images-amazon.com/images/I/41j2ODGkJDL._AA115_.jpg';
+      document.body.appendChild(profile);
+
+     
+
+
+    </script>
+</body>
+</html>
