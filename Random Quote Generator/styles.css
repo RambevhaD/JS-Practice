@@ -1,0 +1,10 @@
+body{
+    background-color: orange;
+}
+.wrapper{
+    background-color: white;
+    width:60vw;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 150px;
+}
